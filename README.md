@@ -1,22 +1,38 @@
-# unit-converter
+# Unit Converter
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+Universal unit converter — length, weight, temperature, speed, area, volume, and more.
 
-> Universal unit converter — 6 categories, 50+ units
+## Categories
+
+| Category | Example |
+|---|---|
+| Length | km ↔ miles, cm ↔ inches |
+| Weight | kg ↔ lbs, g ↔ oz |
+| Temperature | °C ↔ °F ↔ K |
+| Speed | km/h ↔ mph ↔ m/s |
+| Area | m² ↔ ft² ↔ acres |
+| Volume | L ↔ gallons ↔ ml |
+| Data | MB ↔ GB ↔ TB |
 
 ## Features
-- 📏 Length, ⚖️ Weight, 🌡️ Temperature, 🚀 Speed, ⬛ Area, 🧊 Volume
-- 🔄 Swap units with one click
-- ⚡ Instant real-time conversion
-- 🌡️ Correct temperature offset conversions (°F ↔ °C ↔ K)
 
-## Tech Stack
-`React 18` · `TypeScript` · `Vite`
+- Instant conversion as you type
+- All units in each category shown simultaneously
+- Copy any result to clipboard
+- Conversion formula display
+- Favorites for frequently used conversions
 
-## Quick Start
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
